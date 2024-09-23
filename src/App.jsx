@@ -8,7 +8,7 @@ function App() {
         <header className="header">
           <nav className="nav-bar">
             <div className="nav-blogLeft">
-              <img src="././public/imgs/logo.png" alt="" className="logo-img" />
+              <img src="./imgs/logo.png" alt="" className="logo-img" />
               <ul className="nav-ul">
                 <li><a className="active" href="">Home</a></li>
                 <li><a href="">About us</a></li>
@@ -32,7 +32,7 @@ function App() {
               </div>
             </div>
             <div className="headerMain-right">
-              <img src="././public/imgs/header img.png" alt="" />
+              <img src="./imgs/header img.png" alt="" />
             </div>
           </div>
         </header>
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="section-strange">
         <div className="strange-box">
-          <img src="../public/imgs/strange.png" alt="" />
+          <img src="/imgs/strange.png" alt="" />
         </div>
         <main className="main">
           <div className="features">
@@ -49,21 +49,21 @@ function App() {
             <div className="featBoxes">
               <div className="feat-blog">
                 <div className="featuresAll">
-                  <img src="././public/imgs/uy.png" alt="" />
+                  <img src="./imgs/uy.png" alt="" />
                 </div>
                 <h1>Quality Food</h1>
                 <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
               </div>
               <div className="feat-blog">
                 <div className="featuresAll">
-                  <img src="././public/imgs/food-delivery.png" alt="" />
+                  <img src="./imgs/food-delivery.png" alt="" />
                 </div>
                 <h1>Food Delivery</h1>
                 <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
               </div>
               <div className="feat-blog">
                 <div className="featuresAll">
-                  <img src="././public/imgs/smile.png" alt="" />
+                  <img src="./imgs/smile.png" alt="" />
                 </div>
                 <h1>Super Taste</h1>
                 <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className="aboutUs">
             <div className="about-left">
-              <img src="././public/imgs/girl.png" alt="" />
+              <img src="./imgs/girl.png" alt="" />
             </div>
             <div className="about-right">
               <h1 className="aboutTitle">About us</h1>
@@ -92,7 +92,7 @@ function App() {
           <p className="helper-title">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, </p>
           <div className="menu-blog">
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/chikken.png" alt="" />
+              <img src="./imgs/meals/chikken.png" alt="" />
               <div className="menu-about">
                 <p>Vegie Muffen</p>
                 <p>16$</p>
@@ -106,7 +106,7 @@ function App() {
               </div>
             </div>
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/meat.png" alt="" />
+              <img src="./imgs/meals/meat.png" alt="" />
               <div className="menu-about">
                 <p>Salads</p>
                 <p>12$</p>
@@ -119,7 +119,7 @@ function App() {
               </div>
             </div>
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/burger.png" alt="" />
+              <img src="./imgs/meals/burger.png" alt="" />
               <div className="menu-about">
                 <p>Burger</p>
                 <p>10$</p>
@@ -132,7 +132,7 @@ function App() {
               </div>
             </div>
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/salad1.png" alt="" />
+              <img src="./imgs/meals/salad1.png" alt="" />
               <div className="menu-about">
                 <p>Delmonico Steak dish</p>
                 <p>14$</p>
@@ -145,7 +145,7 @@ function App() {
               </div>
             </div>
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/salad2.png" alt="" />
+              <img src="./imgs/meals/salad2.png" alt="" />
               <div className="menu-about">
                 <p>Egg Masala</p>
                 <p>9$</p>
@@ -158,7 +158,7 @@ function App() {
               </div>
             </div>
             <div className="menu-boxes">
-              <img src="././public/imgs/meals/salad3.png" alt="" />
+              <img src="./imgs/meals/salad3.png" alt="" />
               <div className="menu-about">
                 <p>Peach Melba dish</p>
                 <p>15$</p>
@@ -175,7 +175,7 @@ function App() {
         </div>
       </div>
       <div className="app">
-        <img src="././public/imgs/app.png" alt="" className="application" />
+        <img src="./imgs/app.png" alt="" className="application" />
         <div className="app-blog">
           <div className="app-box">
             <p className="app-title">Take away</p>
@@ -193,7 +193,7 @@ function App() {
         <h1 className="last-main-text">Making Food great again and again</h1>
         <p className="last-mini-title">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</p>
         <div className="last-main-box">
-          <img src="././public/imgs/last-person.png" alt="" />
+          <img src="./imgs/last-person.png" alt="" />
         </div>
         <div className="last-main-box2">
           <i class="fa-solid fa-angle-left"></i>
@@ -213,7 +213,7 @@ function App() {
       </div>
       <div className="footer">
         <div>
-          <img src="././public/imgs/logo.png" alt="" />
+          <img src="./imgs/logo.png" alt="" />
           <p>www.ravshanbek's.com</p>
           <p>ravshanbek@gmail.com</p>
           <p>phone: +998 97 777 77 07</p>
