@@ -1,0 +1,731 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Philosopher', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav-blogLeft {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-blogRight {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-img {
+  width: 45px;
+  height: 43px;
+}
+
+.nav-ul {
+  width: 448px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-ul li {
+  font-size: 16px;
+}
+
+.nav-ul li a {
+  color: #150C01;
+}
+
+.nav-ul li a.active {
+  color: #DC780B;
+}
+
+.nav-ul li:hover a {
+  color:
+    #DC780B;
+  transition: all ease .3s;
+}
+
+.booking {
+  width: 155px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  background-color: #DC780B;
+  transition: all .3s;
+  color: #fff;
+}
+.booking:hover{
+  background-color: #fff;
+  color: #DC780B;
+  border: .5px solid #DC780B;
+  transition: all .3s;
+}
+.header-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerMain-left {
+  width: 555px;
+  height: auto;
+  margin-top: 160px;
+}
+
+.headerMain-left h1 {
+  font-family: Philosopher;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.headerMain-left p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #150C01;
+  margin-top: 42px;
+}
+
+.hmainLeft-box {
+  width: 358px;
+  height: 60px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-now {
+  width: 158px;
+  height: 100%;
+  background-color: #DC780B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .3s;
+  font-size: 16px;
+}
+.order-now:hover{
+  background:none;
+  color: #DC780B;
+  transition: all .3s;
+  border: .5px solid #DC780B;  
+}
+
+.food-details {
+  width: 170px;
+  background-color: #fff;
+  color: #DC780B;
+  border: .5px solid #DC780B;;
+  height: 100%;
+  border-radius: 5px;
+  transition: all .3s;
+  font-size: 16px;
+}
+.food-details:hover{
+  background-color: #DC780B;
+  color: #fff;
+  transition: all .3s;
+}
+.headerMain-right {
+  width: 585px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.headerMain-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  max-width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  /* position: absolute; */
+    z-index: 4;
+}
+
+.features {
+  width: 1080px;
+  height: 335px;
+  margin: 0 auto;
+  margin-top: 106px;
+}
+
+.featP {
+  text-align: center;
+  color: #DC780B;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.featText {
+  font-family: Philosopher;
+  font-size: 31px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.featBoxes {
+  width: 100%;
+  height: 228px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+
+.feat-blog {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresAll {
+  width: 90px;
+  height: 90px;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/imgs/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.featuresAll img {
+  width: 52px;
+  height: 52px;
+}
+
+.feat-blog h1 {
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 33px;
+}
+
+.feat-blog p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/*galati shakl           //////////// */
+.section-strange {
+  max-width: 1440px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.strange-box {
+  width: 20%;
+  height: 820px;
+  position: absolute;
+  z-index: 0;
+  top: 350px;
+}
+
+/* tugadi ///////////////////////////// */
+.aboutUs {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 126px;
+}
+
+.about-left {
+  width: 555px;
+  height: 500px;
+}
+
+.about-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-right {
+  width: 490px;
+  height: 315px;
+}
+
+.aboutTitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #DC780B;
+}
+
+.aboutText {
+  font-family: Philosopher;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.about-right p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.about-btn {
+  width: 142px;
+  height: 42px;
+  background-color: #DC780B;
+  border-radius: 5px;
+  margin-top: 28px;
+  border: none;
+  color: #fff;
+  transition: all .3s;
+
+}
+.about-btn:hover{
+  background-color: #fff;
+  color: #DC780B;
+  border: .5px solid #DC780B;
+  transition: all .3s;
+}
+/* //////////////////  Menu //////////// /       /  */
+.menu {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #DC780B;
+}
+
+.menu-text {
+  font-family: Philosopher;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.helper-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.menu-blog {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.menu-boxes {
+  width: 360px;
+  height: 446px;
+  border: 1px solid #0000001A;
+  margin-bottom: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 23%;
+  border-bottom-right-radius: 23%;
+  overflow: hidden;
+}
+
+.menu-boxes img {
+  width: 100%;
+  height: 264px;
+  border-top-left-radius: 23%;
+  border-bottom-right-radius: 23%;
+}
+
+.menu-about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  margin-top: 20px;
+}
+
+.menu-about p {
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.menu-box-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 24px 0 24px;
+}
+
+.menu-rating {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 24px;
+}
+
+.menu-add-btn {
+  width: 36px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC780B;
+  color: #fff;
+  font-size: 27px;
+  transition: all .3s;
+
+}
+.menu-add-btn:hover{
+  background-color: #fff;
+  color: #DC780B;
+  border: .5px solid #DC780B;
+  transition: all .3s;
+}
+.menu-star {
+  width: 50px;
+  height: 40px;
+}
+
+.menu-learn-btn {
+  width: 142px;
+  height: 42px;
+  margin-top: 50px;
+  color: #DC780B;
+  border: .025px solid #DC780B;
+  transition: all .3s;
+  border-radius: 5px;
+}
+.menu-learn-btn:hover{
+  background-color: #DC780B;
+  color: #fff;
+  transition: all .3s;
+}
+.app {
+  max-width: 1440px;
+  height: 658px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.app-blog {
+  width: 100%;
+  height: 518px;
+  background-color: #FBF1E7;
+}
+
+.app-box {
+  width: 555px;
+  height: 275px;
+  margin-left: 247px;
+  margin-top: 114px;
+}
+
+.app img {
+  top: 0;
+  right: 244px;
+  position: absolute;
+}
+
+.app-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #DC780B;
+}
+
+.app-text {
+  font-family: Philosopher;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.app-about {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 29px;
+}
+
+.app-stores {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 39px;
+}
+
+.appS {
+  width: 168px;
+  height: 100%;
+  background-color: #150C01;
+  color: #fff;
+  border-radius: 5px;
+  transition: all .3s;
+  border: none;
+}
+.appS:hover{
+  background-color: #fff;
+  color: #150C01;
+  transition: all .3s;
+}
+.playM {
+  width: 176px;
+  height: 100%;
+  border: none;
+  box-shadow: -2px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+  transition: all .3s;
+  margin-left: 30px;
+}
+.playM:hover{
+  background-color: #150C01;
+  color: #fff;
+  transition: all .3s;
+
+}
+.last-main-blog {
+  width: 804px;
+  height: 476px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+
+.last-main-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #DC780B;
+}
+
+.last-main-text {
+  font-family: Philosopher;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.last-mini-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.last-main-box {
+  width: 139px;
+  height: 139px;
+  margin: 0 auto;
+  background-image: url("../public/imgs/last-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 17px;
+}
+
+.last-main-box img {
+  margin: 55px 0 0 58px;
+}
+
+.last-main-box2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 139px;
+  margin-top: 10px;
+}
+
+.last-main-box2 p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+}
+.last-main-text2{
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 68px;
+}
+.last-main-about{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.contact{
+  max-width: 1440px;
+  height: 448px;
+  background-color: #FBF1E7;
+  padding-top: 115px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.contact-search{
+  width: 750px;
+  height: 75px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 46px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.contact-search input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  padding: 32px;
+}
+.contact-search input:focus{
+  outline: none;
+}
+.contact-search button{
+  width: 156px;
+  height: 99%;
+  position: absolute;
+  background-color: #DC780B;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  z-index: 12;
+  transition: all .3s;
+  right: 0;
+}
+.contact-search button:hover{
+  background-color: #fff;
+  color: #DC780B;
+  border: .5px solid #DC780B;
+  transition: all .3s;
+}
+.footer{
+  width: 100%;
+  max-width: 1440px;
+  height: 429px;
+  background-color: #252525;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding:  137px 150px;
+}
+.footer div{
+  width: 262px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer div p{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color:  #7a7979;
+  margin-top: 17px;
+}
+.footer div h1{
+  font-family: Philosopher;
+font-size: 18px;
+font-weight: 700;
+text-align: left;
+color: #fff;
+}
